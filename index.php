@@ -37,8 +37,6 @@
   // Get saved data to populate suggestions
   $settings = $cache->get_settings();
   $essentials = $cache->get_essentials();
-
-  \devel($settings);
 ?>
 <!DOCTYPE html>
 <html>

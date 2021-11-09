@@ -1,0 +1,28 @@
+{
+    "name": "jarnail93/wpt",
+    "description": "Wrapper to install WP with basic options set",
+    "require": {
+        "vlucas/phpdotenv": "^5.3",
+        "fire015/flintstone": "^2.3",
+        "symfony/var-dumper": "^5.3",
+        "symfony/process": "^5.3",
+        "jarnail93/devel": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jarnail\\Wpt\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jarnail Singh",
+            "email": "jarnail@live.in"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/jarnail93/devel"
+        }
+    ]
+}
